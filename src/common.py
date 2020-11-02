@@ -16,7 +16,6 @@ privkey = config['privkey']
 http_addr = config[network]['http']
 wss_addr = config[network]['wss']
 printer_addr = config['printer'][network]
-printer_sushi_addr = config['printer_sushi']
 printer_abi = json.load(open('abi/printer.json'))
 
 uni = UniswapV2Client(address, privkey, http_addr)
@@ -27,7 +26,6 @@ ws = Web3(WebsocketProvider(wss_addr))
 pairABI = json.load(open('abi/IUniswapV2Pair.json'))['abi']
 erc20abi = json.load(open('./abi/erc20.abi'))
 printer = w3.eth.contract(address=printer_addr, abi=printer_abi)
-printer_sushi = w3.eth.contract(address=printer_sushi_addr, abi=printer_abi)
 
 usdc = config['usdc'][network]
 ycrv = config['ycrv'][network]

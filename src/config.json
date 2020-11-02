@@ -7,37 +7,19 @@
 
 	"network": "mainnet",
 	"https": [
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx",
-		"https://mainnet.infura.io/v3/xxxx"
+		"https://mainnet.infura.io/v3/a2ed40d0fff74c6f81af43350b471743"
 	],
 	"local": {
 		"http": "http://127.0.0.1:8545",
 		"wss": "ws://127.0.0.1:8546"
 	},
 	"mainnet": {
-		"http": "https://mainnet.infura.io/v3/xxxxx",
-		"wss": "wss://mainnet.infura.io/ws/v3/xxxxx"
+		"http": "https://mainnet.infura.io/v3/a2ed40d0fff74c6f81af43350b471743",
+		"wss": "wss://mainnet.infura.io/ws/v3/a2ed40d0fff74c6f81af43350b471743"
 	},
 	"ropsten": {
-		"http": "https://ropsten.infura.io/v3/xxxxx",
-		"wss": "wss://ropsten.infura.io/ws/v3/xxxxx"
+		"http": "https://ropsten.infura.io/v3/a2ed40d0fff74c6f81af43350b471743",
+		"wss": "wss://ropsten.infura.io/ws/v3/a2ed40d0fff74c6f81af43350b471743"
 	},
 	"kovan": {
 		"http": "https://kovan.infura.io/v3/7aef3f0cd1f64408b163814b22cc643c",
@@ -46,15 +28,14 @@
 	"gasnow_tx": "https://api.taichi.network:10001/rpc/public",
 	"gasnow": "https://gasnow.sparkpool.com/api/v3/gas/price",
 
-	"address": "xxxxxx",
+	"address": "0xBf6b707A6f1A0fEd91d275fCa440C0685dDd659B",
 	"privkey": "xxxxxx",
 
-	"printer_sushi": "xxxxx",
 	"printer": {
-		"mainnet": "xxxxx",
-		"local": "xxxxx",
-		"ropsten": "xxxxx",
-		"kovan": "xxxxx"
+		"mainnet": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+		"local": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+		"ropsten": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+		"kovan": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
 	},
 	"weth": {
 		"mainnet": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
